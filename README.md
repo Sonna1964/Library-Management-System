@@ -35,11 +35,13 @@ Before deploying this project on your local machine, ensure you have:
 
 Follow these steps to deploy the Library Management System on your local machine:
 
+
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/Sonna1964/Library-Management-System.git
 cd Library-Management-System
 ```
+
 
 ### Step 2: Setup the Backend
 1. Navigate to the backend directory:
@@ -54,6 +56,7 @@ cd backend
 policy.WithOrigins("Your frontend localhost URL");
 ```
 7.  Run the backend project to start the API server.
+
 
 ### Step 3: Setup the Frontend
 1. Navigate to the frontend directory:
@@ -72,6 +75,7 @@ const url = `https://localhost:7072/api/Book/${editid}`;
 ```bash
 npm run dev
 ```
+
 
 ### Step 4: Access the Application
 - Open your browser and navigate to (default is http://localhost:3000) to access the frontend.
